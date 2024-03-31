@@ -1,24 +1,31 @@
-Development of a 32-bit Risc-V processor as part of a university project. To utilize the processor, you must input Risc-V instructions into the RAM registers as desired, then progressively pass the information through the processor. At the end, the data resides in the register bank.
+# Risc-V 32bit Processor
 
+This repository contains the development of a 32-bit Risc-V processor as part of a university project.
 
-Open "processeur.dig" to start using the processor.
+To utilize the processor, follow these steps:
 
-Here is some operations to test the processor :
+1. Open the file `processeur.dig` to start using the processor.
 
-JAL 12 :
-0b00000000110000000000000001101111
+2. Input Risc-V instructions into the RAM registers as desired.
 
-ADDI RS1, r0, +2 :
-0b00000000001000000000000010010011
+3. Progressively pass the information through the processor.
 
-ADDI RS2, r0, +3 :
-0b00000000001100000000000100010011
+4. At the end, the data resides in the register bank.
 
-ADD RS1 + RS2 :
-0b00000000001000001000000110110011
+## Operations to Test the Processor
 
-BGE r2, r1, PC+8
-0b00000000000100010101010001100011
+Here are some example operations to test the processor:
 
-SUB rs3, rs2, rs1
-0b01000000000100010000000110110011
+1. **JAL 12**: `0b00000000110000000000000001101111`
+
+2. **ADDI RS1, r0, +2**: `0b00000000001000000000000010010011`
+
+3. **ADDI RS2, r0, +3**: `0b00000000001100000000000100010011`
+
+4. **ADD RS1 + RS2**: `0b00000000001000001000000110110011`
+
+5. **BGE r2, r1, PC+8**: `0b00000000000100010101010001100011`
+
+6. **SUB rs3, rs2, rs1**: `0b01000000000100010000000110110011`
+
+Feel free to explore and test the processor with these operations. If you encounter any issues or have any questions, don't hesitate to ask me !
