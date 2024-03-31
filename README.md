@@ -1,4 +1,4 @@
-Development of a 32-bit Risc-V processor as part of a university study project. To utilize the processor, you must input Risc-V instructions into the RAM registers as desired, then progressively pass the information through the processor. At the end, the data resides in the register bank.
+Development of a 32-bit Risc-V processor as part of a university project. To utilize the processor, you must input Risc-V instructions into the RAM registers as desired, then progressively pass the information through the processor. At the end, the data resides in the register bank.
 
 Some operations to test the processor :
 
